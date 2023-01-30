@@ -5,8 +5,8 @@ public class Main {
         Class.forName("com.mysql.cj.jdbc.Driver");
         Connection cx = DriverManager.getConnection(
                 "jdbc:mysql://localhost:3306/test-jdbc",
-                "root",
-                "acmilan7");
+                "your username",
+                "your password");
         Statement st = cx.createStatement();
         ResultSet rs = st.executeQuery("SELECT * FROM personnes");
         while (rs.next()) {
