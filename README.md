@@ -3,6 +3,8 @@
 ## Setup
 - git clone the project
 - Run the queries.sql file
+- Replace "your username" and "your password" by your actual db username and password in the main file.
+
 
 ## Usage
 - Run this command in the root directory `java -cp "MySQL ConnectorJ/8.0.25/mysql-connector-java-8.0.25.jar" src/Main.java`
